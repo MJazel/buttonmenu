@@ -16,16 +16,18 @@
             android:layout_height="wrap_content"
             android:text="@string/sfrmHome"
             android:textSize="25sp"
-            android:textColor="@color/micolor"
+            android:textColor="@color/colortext"
             android:gravity="center"
             android:background="@color/barra">
         </TextView>
+
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="229dp"
+            android:layout_height="362dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:contentDescription="Mi trabajo"/>
+            android:contentDescription="Mi foto"
+            android:src="@drawable/img" />
 
         <!-- Nombre del alumno -->
         <TextView
